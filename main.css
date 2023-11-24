@@ -1,0 +1,68 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2 {
+  padding: 10px;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 15px;
+}
+
+main {
+  padding: 20px;
+}
+
+.content ul {
+  list-style: none;
+}
+
+.content li {
+  padding: 10px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.about-me p {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.content a {
+  text-decoration: none;
+  color: #007BFF; /* Link color */
+}
+
+
+.content li a:last-child {
+  color: #28A745; /* Source link color */
+  margin-left: 10px; /* Adjust spacing between post title and source link */
+}
+
